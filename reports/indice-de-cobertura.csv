@@ -1,0 +1,85 @@
+id,pagina_original,resposta,pagina_pdf,titulo
+X01,1,1.1,4,Abrangência de 100% do BWeb
+A04,1,1.2,4,Quantidade de unidades abrangidas
+A01,1,1.3,4,499.205 seções e 128.236.074 votos
+A01V,1,1.3,4,499.205 seções e 128.236.074 votos
+A05,1,1.4,4,Data declarada da análise
+X02,1,1.5,5,Origem oficial dos dados
+X03,2,2.1,6,Proclamação na noite de 25 de outubro
+F01,2,2.2,6,Liberação do BWeb somente em 28 de outubro
+F02,2,2.3,6,72 horas sem acesso aos dados primários
+X09,2,2.4,7,Reconhecimento diplomático e medidas contra a oposição durante o intervalo
+A02,2,2.5,7,Repetição dos totais nacionais
+A02V,2,2.5,7,Repetição dos totais nacionais
+B01,2,2.6,7,"52,39% para Flávio nas seções encerradas até 17h"
+B02,2,2.7,7,"Vantagem de quase 1,8 milhão de votos"
+B03,2,2.8,8,"Mais de 6,1 milhões de vantagem nas seções posteriores"
+B04,2,2.9,8,Resultado fabricado no grupo de encerramento tardio
+X04,2,2.10,8,Prorrogação de duas horas e alcance da decisão
+X05,2,2.11,8,A referência a aproximadamente 34 mil votos após 17h
+B05S,3,3.1,9,Encerramento entre 17h01 e 17h15
+B05T,3,3.1,9,Encerramento entre 17h01 e 17h15
+B05P,3,3.1,9,Encerramento entre 17h01 e 17h15
+B06S,3,3.2,9,Encerramento entre 17h16 e 18h59
+B06T,3,3.2,9,Encerramento entre 17h16 e 18h59
+B06P,3,3.2,9,Encerramento entre 17h16 e 18h59
+B07S,3,3.3,9,Encerramento após 19h
+B07T,3,3.3,9,Encerramento após 19h
+B08,3,3.4,10,"Mais de 2,5 milhões em seções que encerraram mais tarde"
+B09BAS,3,3.5,10,"Bahia: 936 seções e 72,31% para Lula"
+B09BAP,3,3.5,10,"Bahia: 936 seções e 72,31% para Lula"
+B09PES,3,3.6,10,"Pernambuco: 657 seções e 65,70% para Lula"
+B09PEP,3,3.6,10,"Pernambuco: 657 seções e 65,70% para Lula"
+B09MAP,3,3.7,10,"Maranhão: 83,31% para Lula"
+B09SPS,3,3.8,11,"São Paulo: 1.571 seções e 57,46% para Lula"
+B09SPP,3,3.8,11,"São Paulo: 1.571 seções e 57,46% para Lula"
+B10,3,3.9,11,Contraste das seções tardias com o restante de São Paulo
+C05,3,3.10,11,Liberação mediante simples digitação do ano de nascimento
+C01,3,3.11,11,"8.632.488 habilitações e 6,73%"
+C02,3,3.11,11,"8.632.488 habilitações e 6,73%"
+C03,3,3.12,12,Margem final de 4.430.191 votos
+C04,3,3.13,12,Liberações equivalentes a quase o dobro da margem
+C06,3,3.14,12,Correlação entre habilitação manual e votação de Lula
+D05,4,4.1,13,Distribuição gaussiana dos percentuais
+D01L,4,4.2,13,"Unanimidade: 106, quatro e razão de 26,5 para um"
+D01B,4,4.2,13,"Unanimidade: 106, quatro e razão de 26,5 para um"
+D03,4,4.2,13,"Unanimidade: 106, quatro e razão de 26,5 para um"
+D02L,4,4.3,13,"Mais de 90%: 6.899, 384 e razão de 18 para um"
+D02B,4,4.3,13,"Mais de 90%: 6.899, 384 e razão de 18 para um"
+D04,4,4.3,13,"Mais de 90%: 6.899, 384 e razão de 18 para um"
+D06,4,4.4,14,Concentração em áreas rurais com pouca fiscalização
+E01,4,4.5,14,Aplicação do primeiro dígito de Benford
+E02,4,4.6,14,Ausência dos gráficos de Benford e correlação
+G01,4,4.7,14,Decisão sobre passaportes sete minutos após a proclamação
+G02,4,4.8,15,Articulação de prisão cautelar pela Polícia Federal
+G03,4,4.9,15,Saída do país sob proteção diplomática dos Estados Unidos
+G05,4,4.10,15,Coincidência com apurações financeiras e abafamento
+G04,4,4.11,15,Montante de quarenta milhões de dólares
+G04C,5,5.1,16,Destinação do montante à família de magistrados
+G06,5,5.2,16,Declaração atribuída a Donald Trump
+G07,5,5.3,16,Acolhimento da oposição pela Argentina
+G08,5,5.4,17,Publicação chinesa associando prorrogação e resultado
+H06,5,5.5,17,Maior auditoria de microdados eleitorais já realizada no Brasil
+H01,5,5.6,17,Vitória de Flávio até 17h
+H02,5,5.7,17,Virada exclusivamente nas seções após o prazo legal
+H05,5,5.8,18,"8,6 milhões sem validação biométrica, quase o dobro da margem"
+H03,5,5.9,18,Milhões de votos computados à noite e percentuais acima de 70%
+F03,5,5.10,18,Repetição da alegação de sonegação por 72 horas
+H04,5,5.11,18,"Falta de integridade matemática, quebra de protocolos e mudança judicial das regras"
+X08,5,5.12,19,Arquivos salvos e gráficos traçados pelo autor
+I01,6,6.1,20,"Escopo declarado: sem hackers, satélites ou adulteração de código"
+I04,6,6.2,20,Substituição do controle digital pela habilitação manual
+X06,6,6.3,20,Exploração em escala inédita no segundo turno
+I02,6,6.4,21,Quatro falhas de biometria e uso do ano de nascimento
+I03,6,6.5,21,Controle social nas seções urbanas com fiscais
+A06,6,6.6,21,Verificação de todos os hashes SHA-512 pelo autor
+A03,6,6.7,22,Universalidade: todas as seções e 128.236.074 votos
+A03V,6,6.7,22,Universalidade: todas as seções e 128.236.074 votos
+X07,6,6.8,22,Cruzamento dos três campos oficiais
+J01,7,7.1,23,Repetição dos 8.632.488 liberados manualmente
+J02,7,7.2,23,Repetição da margem de 4.430.191 votos
+J03,7,7.3,23,Seções com mais de 95% de identificação biométrica e equilíbrio
+J04,7,7.4,24,"Faixas de 20%, 30% e mais de 50% de liberação e patamar de 61%"
+J05,7,7.5,24,"Coincidência entre noite, habilitação biográfica e menos fiscais"
+J06,7,7.6,24,Desarme das travas em milhões de votos
+J07,7,7.7,24,Documento não constitui laudo judicial

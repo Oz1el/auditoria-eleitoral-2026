@@ -1,0 +1,169 @@
+{
+  "sources": [
+    {
+      "id": "D01",
+      "type": "norma_primaria",
+      "url": "https://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-751-de-26-de-fevereiro-de-2026",
+      "finding": "As regras de votação distinguem o encerramento e os procedimentos finais, além do atendimento das pessoas na fila. Horário de encerramento não identifica o horário de cada voto.",
+      "review": "web.run: resolução e comunicado oficial com referências aos artigos 127 e 160",
+      "reviewed_utc": "2026-10-29T12:42:39.682063+00:00",
+      "raw_status": "unavailable_via_terminal",
+      "raw_error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "D02",
+      "type": "norma_primaria",
+      "url": "https://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-759-de-26-de-fevereiro-de-2026?texto=compilado",
+      "finding": "Procedimentos alternativos de identificação são previstos nas instruções de 2026. Ausência de biometria ou falha de reconhecimento não constitui, por si, voto irregular.",
+      "review": "web.run: norma e manual oficial",
+      "reviewed_utc": "2026-10-29T12:42:39.682591+00:00",
+      "raw_status": "unavailable_via_terminal",
+      "raw_error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "D03",
+      "type": "comunicado_primario",
+      "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Julho/manual-do-eleitor-entenda-como-vai-funcionar-a-biometria-nas-eleicoes-2026",
+      "published": "2026-07-23",
+      "finding": "O procedimento combina conferência documental, tentativas biométricas e identificação alternativa com ano de nascimento e caderno de votação. A descrição de simples digitação omite outras conferências.",
+      "review": "web.run: corpo da página, seções sobre biometria não reconhecida",
+      "reviewed_utc": "2026-10-29T12:42:39.682977+00:00",
+      "raw_status": "unavailable_via_terminal",
+      "raw_error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "D04",
+      "type": "comunicado_primario",
+      "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/eleicoes-2026-mais-de-34-mil-votos-foram-registrados-apos-as-17h-no-2o-turno",
+      "published": "2026-10-27",
+      "finding": "Informa 34.393 votos após 17h e 497.333 seções encerradas depois de 17h; são grandezas diferentes. O levantamento também apresenta subconjuntos por 17h10 e 19h, que serão confrontados independentemente com os logs.",
+      "review": "web.run: corpo e links das três tabelas oficiais",
+      "reviewed_utc": "2026-10-29T12:42:40.054401+00:00",
+      "raw_status": "unavailable_via_terminal",
+      "raw_error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "D05",
+      "type": "comunicado_primario",
+      "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/esclarecimento-sobre-prorrogacao-da-votacao",
+      "published": "2026-10-25",
+      "finding": "Esclarece cumprimento da decisão de prorrogação. A análise jurídica deve usar a decisão e as regras aplicáveis, sem presumir ilegalidade apenas pelo horário tardio do encerramento.",
+      "review": "web.run: comunicado oficial",
+      "reviewed_utc": "2026-10-29T12:42:40.055322+00:00",
+      "raw_status": "unavailable_via_terminal",
+      "raw_error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "D06",
+      "type": "nota_primaria",
+      "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/nota-a-imprensa-3",
+      "published": "2026-10-28",
+      "finding": "A PF relata representação na PET 16877/DF em 25/10 por cautelares de viagem e contatos. Informa que restrições a documentos não autorizam automaticamente prisão ou vigilância. Não fornece os timestamps necessários para confirmar intervalo de sete minutos nem comprova articulação informal ou proteção diplomática dos EUA.",
+      "review": "web.run: corpo integral da nota",
+      "reviewed_utc": "2026-10-29T12:42:40.058788+00:00",
+      "raw_path": "data/evidence/documental/D06.html",
+      "raw_sha256": "f28e8aab0e2299082325b18ae44029eaa4cac30a24992f97a4aee357c88fe323",
+      "raw_status": "saved"
+    },
+    {
+      "id": "D07",
+      "type": "transcricao_primaria",
+      "url": "https://www.casarosada.gob.ar/informacion/conferencias/51410-conferencia-de-prensa-del-vocero-presidencial-adrian-ravier-desde-casa-rosada-27-10-2026",
+      "published": "2026-10-27",
+      "finding": "Na coletiva oficial, o porta-voz informou não haver pedido de asilo naquele momento. Isso não resolve a situação migratória posterior nem autoriza equiparar entrada no país a proteção diplomática.",
+      "review": "web.run: pergunta e resposta sobre pedido de asilo; tradução nossa do espanhol",
+      "reviewed_utc": "2026-10-29T12:42:40.168411+00:00",
+      "raw_path": "data/evidence/documental/D07.html",
+      "raw_sha256": "1ce8293f1185db9c4fb33c57b85952840fccf587f4e9d6159b846e6fb3ce89a5",
+      "raw_status": "saved"
+    },
+    {
+      "id": "D08",
+      "type": "publicacao_primaria_da_midia_citada",
+      "url": "https://www.news.cn/20261026/3f44e0a874914646a5e687cf7207df0c/c.html",
+      "published": "2026-10-26",
+      "finding": "A Xinhua publicou análise que atribui à extensão da votação contribuição para o aumento dos votos de Lula. A existência dessa interpretação jornalística pode ser verificada, mas não demonstra quantos votos seriam alterados sem a prorrogação.",
+      "review": "web.run: texto chinês, especialmente parágrafo sobre transportes e extensão; tradução nossa",
+      "reviewed_utc": "2026-10-29T12:42:40.180290+00:00",
+      "raw_path": "data/evidence/documental/D08.html",
+      "raw_sha256": "5be932029213cacc07811abfa4e1fce232879cb4e0a907756f4aec18d413ab4f",
+      "raw_status": "saved"
+    },
+    {
+      "id": "D09",
+      "type": "publicacao_primaria_da_midia_citada",
+      "url": "https://www.news.cn/20261027/680aaa6a6ad946ec8ff286b3d700071f/c.html",
+      "published": "2026-10-27",
+      "finding": "Publicação posterior da Xinhua reproduz os dados de aproximadamente 34 mil votos tardios e a margem superior a 4,43 milhões, e relata que esses dados não inverteriam o resultado. Deve ser considerada junto à matéria anterior para evitar recorte seletivo.",
+      "review": "web.run: texto chinês; tradução nossa",
+      "reviewed_utc": "2026-10-29T12:42:42.567496+00:00",
+      "raw_path": "data/evidence/documental/D09.html",
+      "raw_sha256": "3ce8f94c688e221aa954224fc54da382beed859ce4148f663b939ae2a12bcfe1",
+      "raw_status": "saved"
+    },
+    {
+      "id": "D10",
+      "type": "jornalismo_confiavel",
+      "url": "https://apnews.com/article/0ef0b7b949fea74ff119c3f81453416b",
+      "published": "2026-10-26",
+      "finding": "A AP relata que Trump alegou manipulação da eleição sem apresentar evidências. É relato jornalístico, não transcrição primária completa da declaração nem prova de fraude.",
+      "review": "web.run: resultado e resumo da reportagem; fonte primária integral da fala não obtida",
+      "reviewed_utc": "2026-10-29T12:42:43.404193+00:00",
+      "raw_status": "unavailable_via_terminal",
+      "raw_error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "D11",
+      "type": "jornalismo_confiavel",
+      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/stf-nega-ter-ordenado-buscas-em-enderecos-de-flavio-bolsonaro",
+      "published": "2026-10-28",
+      "finding": "Reporta nota do STF negando buscas em endereços do senador e contextualiza cautelares. Não comprova o intervalo de sete minutos, uma prisão preventiva ou motivação vinculada ao Banco Master.",
+      "review": "web.run: corpo da reportagem",
+      "reviewed_utc": "2026-10-29T12:42:43.657361+00:00",
+      "raw_path": "data/evidence/documental/D11.html",
+      "raw_sha256": "d76ee511983d130524e0874cdd44028f1641f41bf3cf11ddce946cc1c8f5db71",
+      "raw_status": "saved"
+    },
+    {
+      "id": "D12",
+      "type": "jornalismo_com_acesso_limitado",
+      "url": "https://www.jota.info/eleicoes/eleicoes-2026/cerca-de-34-mil-votos-o-equivalente-a-003-do-total-foram-registrados-depois-das-17h",
+      "published": "2026-10-26",
+      "finding": "Metadados indexados e chamada pública referem análise de logs em 26/10. São evidência temporal a considerar, mas o corpo integral está restrito e a data atual não é registro independente de disponibilidade de cada arquivo BWeb.",
+      "review": "web.run: chamada pública e trecho indexado; paywall anotado",
+      "reviewed_utc": "2026-10-29T12:42:43.672156+00:00",
+      "raw_path": "data/evidence/documental/D12.html",
+      "raw_sha256": "ec6f3151ce18ed82bb78d6ccdd764666c73d2c78fdc7913db8cd95d8a6838af7",
+      "raw_status": "saved"
+    },
+    {
+      "id": "D13",
+      "type": "catalogo_primario",
+      "url": "https://dadosabertos.tse.jus.br/dataset/resultados-2026-boletim-de-urna",
+      "finding": "Datas de geração, criação do recurso e Last-Modified serão preservadas separadamente. Elas não demonstram, isoladamente, o primeiro instante em que cada pacote esteve acessível ao público.",
+      "review": "snapshots CKAN/HTML do projeto",
+      "reviewed_utc": "2026-10-29T12:42:43.935051+00:00",
+      "raw_path": "data/evidence/documental/D13.html",
+      "raw_sha256": "0e615eb6fa55161aa863c1dfe6936512f573cf50752259b04fc9c669320282a3",
+      "raw_status": "saved"
+    },
+    {
+      "id": "D14",
+      "type": "catalogo_primario",
+      "url": "https://dadosabertos.tse.jus.br/dataset/eleitorado-2026",
+      "finding": "Catálogo de eleitorado e locais poderá fornecer características dos locais. Nomes contendo rural ou indígena não são classificação geográfica oficial nem medição da presença de fiscais. Não foi obtido cadastro nacional de fiscais por seção.",
+      "review": "web.run: catálogo; insuficiente para confirmar sozinho as alegações de fiscalização",
+      "reviewed_utc": "2026-10-29T12:42:44.140000+00:00",
+      "raw_path": "data/evidence/documental/D14.html",
+      "raw_sha256": "727897584b1b362ea0dfa4aad11579f55343f68dbbda5937b3bd769c0b38067f",
+      "raw_status": "saved"
+    }
+  ],
+  "limitations": [
+    "Pesquisa em fontes abertas; documentos sob sigilo e cronologia exata de protocolo/assinatura não obtidos.",
+    "As matérias e notas são evidências documentais atribuídas, não substituem a recontagem independente.",
+    "Não foi localizada documentação primária suficiente para os US$ 40 milhões, motivo de abafamento ou proteção diplomática dos EUA.",
+    "Ausência de resultados na busca não foi tratada como prova de inexistência."
+  ],
+  "previous_serialization_sha256": "fb2e9d66e1cf8c5f3fe030fbd36ad5837e4ea6ae80512a56d7c65289c9ad2c91"
+}

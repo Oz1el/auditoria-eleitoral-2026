@@ -1,0 +1,62 @@
+{
+  "population": "todas as regiões, inclusive ZZ, com horário original disponível; relógios locais não comparáveis entre fusos",
+  "known": 499178,
+  "unresolved": 29,
+  "bins": [
+    {
+      "faixa": "ate_170059_local",
+      "secoes": 150771,
+      "lula": 17369159,
+      "bolsonaro": 19116798,
+      "validos": 36485957,
+      "percentual_bolsonaro_validos": 52.39494745882642,
+      "vantagem_bolsonaro": 1747639
+    },
+    {
+      "faixa": "apos_170059_local",
+      "secoes": 348407,
+      "lula": 46886628,
+      "bolsonaro": 40708890,
+      "validos": 87595518,
+      "percentual_bolsonaro_validos": 46.47371341533707,
+      "vantagem_bolsonaro": -6177738
+    },
+    {
+      "faixa": "170100_171559_local",
+      "secoes": 339593,
+      "lula": 45525188,
+      "bolsonaro": 39627772,
+      "validos": 85152960,
+      "percentual_bolsonaro_validos": 46.5371632413013,
+      "vantagem_bolsonaro": -5897416
+    },
+    {
+      "faixa": "171600_185959_local",
+      "secoes": 2472,
+      "lula": 372470,
+      "bolsonaro": 279102,
+      "validos": 651572,
+      "percentual_bolsonaro_validos": 42.8351740099329,
+      "vantagem_bolsonaro": -93368
+    },
+    {
+      "faixa": "apos_190000_local",
+      "secoes": 6326,
+      "lula": 986430,
+      "bolsonaro": 799733,
+      "validos": 1786163,
+      "percentual_bolsonaro_validos": 44.77379724022948,
+      "vantagem_bolsonaro": -186697
+    },
+    {
+      "faixa": "exatamente_190000_local",
+      "secoes": 16,
+      "lula": 2540,
+      "bolsonaro": 2283,
+      "validos": 4823,
+      "percentual_bolsonaro_validos": 47.335683184739786,
+      "vantagem_bolsonaro": -257
+    }
+  ],
+  "warning": "Reprodução de escolhas de recorte. Não representa encerramento simultâneo em Brasília nem horário individual de voto."
+}

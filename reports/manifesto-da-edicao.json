@@ -1,0 +1,216 @@
+{
+  "created_utc": "2026-10-29T23:42:01.486703+00:00",
+  "source_completed_run": "output/complementar/2026-10-29T225426908711+0000-comparacoes-corrigidas",
+  "source_processing_signature": "3ef30090b835933faa1dc40f99898062d5b0cf28c800e151398d340a01f792c3",
+  "new_audit_processing": false,
+  "new_statistical_tests": false,
+  "original_matrix_records": 75,
+  "supplemental_context_points": 9,
+  "answers": 68,
+  "covered_matrix_ids": [
+    "A01",
+    "A01V",
+    "A02",
+    "A02V",
+    "A03",
+    "A03V",
+    "A04",
+    "A05",
+    "A06",
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B05P",
+    "B05S",
+    "B05T",
+    "B06P",
+    "B06S",
+    "B06T",
+    "B07S",
+    "B07T",
+    "B08",
+    "B09BAP",
+    "B09BAS",
+    "B09MAP",
+    "B09PEP",
+    "B09PES",
+    "B09SPP",
+    "B09SPS",
+    "B10",
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C06",
+    "D01B",
+    "D01L",
+    "D02B",
+    "D02L",
+    "D03",
+    "D04",
+    "D05",
+    "D06",
+    "E01",
+    "E02",
+    "F01",
+    "F02",
+    "F03",
+    "G01",
+    "G02",
+    "G03",
+    "G04",
+    "G04C",
+    "G05",
+    "G06",
+    "G07",
+    "G08",
+    "H01",
+    "H02",
+    "H03",
+    "H04",
+    "H05",
+    "H06",
+    "I01",
+    "I02",
+    "I03",
+    "I04",
+    "J01",
+    "J02",
+    "J03",
+    "J04",
+    "J05",
+    "J06",
+    "J07"
+  ],
+  "source_files": [
+    {
+      "path": "docs/relatorio_original/imagens.json",
+      "sha256": "438a098070bda20fa3a7071c3b85a0f018d2a6c9f18f61c20c1b2e45932fc386"
+    },
+    {
+      "path": "docs/relatorio_original/transcricao.md",
+      "sha256": "289ff98a2e815a0a16d089e9e42b13c455aad5999de62fd68c736ad9e918e86d"
+    },
+    {
+      "path": "output/analises/2026-10-29T044549961761+0000/estatisticas.json",
+      "sha256": "8ddd7930a87a4480942142da0af3902d95a20ccbb6b8310e309cf000c769101f"
+    },
+    {
+      "path": "output/analises/2026-10-29T044549961761+0000/horarios-sensibilidade-local.json",
+      "sha256": "01771c3ebf1e33196e77feee984a0be31915cb56fc2f35329cef9dfdcad8e4cf"
+    },
+    {
+      "path": "output/analises/2026-10-29T044549961761+0000/horarios-uf.csv",
+      "sha256": "f20f75e78d94c1cef66804539aefc5957ca94a309e246f95a5aae6c9798b6fe4"
+    },
+    {
+      "path": "output/analises/2026-10-29T044549961761+0000/horarios.json",
+      "sha256": "44c6e9240ba994d76cc7840b228f2941044eab48421308fd19af9dd986837eed"
+    },
+    {
+      "path": "output/analises/2026-10-29T044549961761+0000/reconciliacao.json",
+      "sha256": "8defe1a74acbdb773809a3f897fa92b15e470d9b7352ff839fd7b3ad567ffedd"
+    },
+    {
+      "path": "output/complementar/2026-10-29T225426908711+0000-comparacoes-corrigidas/advanced-statistics.json",
+      "sha256": "010a252295131f37d5329035df255016dc423e1eb1d4ad01b5480380b0845ea8"
+    },
+    {
+      "path": "output/complementar/2026-10-29T225426908711+0000-comparacoes-corrigidas/benford-sensibilidades.json",
+      "sha256": "b0c18a8a4cac5c60af8c700d6612b4e694674ba26c9aebc1eae599e745fdbca6"
+    },
+    {
+      "path": "output/complementar/2026-10-29T225426908711+0000-comparacoes-corrigidas/biometria-95-porcento.json",
+      "sha256": "6bb0ad0ebc551c45bfb96656c4ec3a16119ce3fee2064ace3a4eb5b7821cf838"
+    },
+    {
+      "path": "output/complementar/2026-10-29T225426908711+0000-comparacoes-corrigidas/biometria-faixas.csv",
+      "sha256": "dcab0da330b6b1b36e5269871418ccf85c99e5b97a02c051bf7975fa1acfeff1"
+    },
+    {
+      "path": "output/complementar/2026-10-29T225426908711+0000-comparacoes-corrigidas/comparisons-summary.json",
+      "sha256": "047524b28bd63873c4fd63a5edae137501681ba36e6d3c46ca39534eb9af9893"
+    },
+    {
+      "path": "output/complementar/2026-10-29T225426908711+0000-comparacoes-corrigidas/fontes-documentais.json",
+      "sha256": "fb2e9d66e1cf8c5f3fe030fbd36ad5837e4ea6ae80512a56d7c65289c9ad2c91"
+    },
+    {
+      "path": "output/complementar/2026-10-29T225426908711+0000-comparacoes-corrigidas/logs-limitacoes.csv",
+      "sha256": "a4a25753c01a39037c0d8017136ad1514ecc799769750951f7168d6d2a1b95a7"
+    },
+    {
+      "path": "output/complementar/2026-10-29T225426908711+0000-comparacoes-corrigidas/matriz.json",
+      "sha256": "ed3da011f807b50f4a5e47f4af662767bd862bd89465c3def85316cca04412c1"
+    },
+    {
+      "path": "output/complementar/2026-10-29T225426908711+0000-comparacoes-corrigidas/modelos-controlados.csv",
+      "sha256": "1c55b28bfec83912b0f50c794ca4bf3a5e38d6c2645f32c23eb8339822b83827"
+    },
+    {
+      "path": "output/complementar/2026-10-29T225426908711+0000-comparacoes-corrigidas/summary.json",
+      "sha256": "6d6a91e8077abfb1b241bf1aa17dc221b8951794533dbd0d60f3a2cd8b937488"
+    },
+    {
+      "path": "output/complementar/2026-10-29T225426908711+0000-comparacoes-corrigidas/tabular-schemas.json",
+      "sha256": "98d6013284b34e78e78f13f395e04b9db30571d66303f3fb7db07c465341d4d7"
+    },
+    {
+      "path": "output/complementar/2026-10-29T225426908711+0000-comparacoes-corrigidas/tabular-summary.json",
+      "sha256": "3f4402354c4dfbe54f4593a8a887fa45f0b443a54ec09c24965d272996b3e2ca"
+    }
+  ],
+  "authoring_scripts": [
+    {
+      "path": "scripts/create_natural_report.py",
+      "sha256": "dc98f9d3b5524277a4acf9be30c4a30aebfdea3d013f1fc6ae594cfa692460e2"
+    },
+    {
+      "path": "scripts/relatorio_natural_content.py",
+      "sha256": "b44a7c0d91edd6a3f3e438af5f9c6c6621ca52a27f272b3601d50795c50fa261"
+    }
+  ],
+  "pdf": "output/pdf/conferencia-alegacoes-sete-prints-2026-10-29_194201/respostas-as-alegacoes.pdf",
+  "pdf_sha256": "98c72b9e450769824c5ed25ed07a06fa807a3747e611c894bf69af16126f19c2",
+  "editorial_adjustments": [
+    "BA/SP figures reproduced including closures exactly at 19:00:00, from existing UF time tables",
+    "SP remainder share obtained by subtraction of existing statewide and inclusive late-group totals"
+  ],
+  "editorial_policy": "Numbers and scopes first; approximate expressions reported as approximate; unverified claims are not classified as false.",
+  "layout_review": {
+    "pages": 32,
+    "reviewed_utc": "2026-10-29T23:43:27.471956+00:00",
+    "passed": true
+  },
+  "output_files": [
+    {
+      "path": "output/pdf/conferencia-alegacoes-sete-prints-2026-10-29_194201/indice-de-cobertura.csv",
+      "sha256": "f2d0bb628025ad186362dcb90837a9e60fb5ff0ef5e5d0b5af99d9c5f64e981e",
+      "bytes": 5254
+    },
+    {
+      "path": "output/pdf/conferencia-alegacoes-sete-prints-2026-10-29_194201/pdf-qa.json",
+      "sha256": "cac7beb6b0ad308ef79aed2095445c28b0dcecda63bb9dbcd46c739514751ec7",
+      "bytes": 639
+    },
+    {
+      "path": "output/pdf/conferencia-alegacoes-sete-prints-2026-10-29_194201/respostas-as-alegacoes.md",
+      "sha256": "7d16ed04885d492f5cba87a787787aae7ab7168dfba7191e1bb6860eddff7d0b",
+      "bytes": 46092
+    },
+    {
+      "path": "output/pdf/conferencia-alegacoes-sete-prints-2026-10-29_194201/respostas-as-alegacoes.pdf",
+      "sha256": "98c72b9e450769824c5ed25ed07a06fa807a3747e611c894bf69af16126f19c2",
+      "bytes": 168302
+    },
+    {
+      "path": "output/pdf/conferencia-alegacoes-sete-prints-2026-10-29_194201/respostas-estruturadas.json",
+      "sha256": "c35074ec4e8c43188ed50ccf677e7e016fee128044b70843e428b625a0b0d14f",
+      "bytes": 56841
+    }
+  ],
+  "publication_note": "Portable projection of the original edition manifest. Hashes of original inputs refer to the preserved historical edition, before repository path normalization.",
+  "publication_pdf": "reports/respostas-as-alegacoes.pdf"
+}

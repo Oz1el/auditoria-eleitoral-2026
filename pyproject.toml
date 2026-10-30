@@ -1,0 +1,45 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "auditoria-urnas"
+version = "0.1.0"
+description = "Inventário e ingestão auditável de BUs oficiais do TSE"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "asn1tools>=0.167,<0.168",
+    "duckdb>=1.4,<2",
+    "pyarrow>=20,<24",
+    "reportlab>=4,<5",
+    "markdown>=3.7,<4",
+    "numpy>=2,<3",
+    "pandas>=3,<4",
+    "scipy>=1.15,<2",
+    "statsmodels>=0.14,<0.16",
+    "plotly>=6,<7",
+    "ecpy>=1.2.5,<2",
+    "pyopenssl>=25,<28",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+auditoria-urnas = "auditoria_urnas.cli:main"
+
+[project.optional-dependencies]
+benchmark-gpu = [
+    "cupy-cuda12x>=13.6,<15",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-m 'not integration'"
+markers = ["integration: requires downloaded official archives or historical checkpoints; opt in explicitly"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/auditoria_urnas"]
+
+[tool.uv.sources]
+ecpy = { git = "https://github.com/cslashm/ECPy.git", rev = "8143d9ac017de0cb7f980bedaf56cefe6b4d9180" }

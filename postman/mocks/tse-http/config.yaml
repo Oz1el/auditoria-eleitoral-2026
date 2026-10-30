@@ -1,0 +1,10 @@
+version: 1
+name: tse-http
+slug: tse-http
+protocol: http
+interceptRequests: true
+port: 4500
+scenarios:
+  - name: default
+    path: ./default.js
+    default: true

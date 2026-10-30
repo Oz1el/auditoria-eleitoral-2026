@@ -1,0 +1,121 @@
+[
+  {
+    "historical_path": "output/analises/2026-10-29T044549961761+0000/estatisticas.json",
+    "publication_path": "reports/evidence/estatisticas.json",
+    "historical_sha256": "8ddd7930a87a4480942142da0af3902d95a20ccbb6b8310e309cf000c769101f",
+    "publication_sha256": "8ddd7930a87a4480942142da0af3902d95a20ccbb6b8310e309cf000c769101f",
+    "transformation": "unchanged bytes"
+  },
+  {
+    "historical_path": "output/analises/2026-10-29T044549961761+0000/horarios-sensibilidade-local.json",
+    "publication_path": "reports/evidence/horarios-sensibilidade-local.json",
+    "historical_sha256": "01771c3ebf1e33196e77feee984a0be31915cb56fc2f35329cef9dfdcad8e4cf",
+    "publication_sha256": "01771c3ebf1e33196e77feee984a0be31915cb56fc2f35329cef9dfdcad8e4cf",
+    "transformation": "unchanged bytes"
+  },
+  {
+    "historical_path": "output/analises/2026-10-29T044549961761+0000/horarios-uf.csv",
+    "publication_path": "reports/evidence/horarios-uf.csv",
+    "historical_sha256": "f20f75e78d94c1cef66804539aefc5957ca94a309e246f95a5aae6c9798b6fe4",
+    "publication_sha256": "f20f75e78d94c1cef66804539aefc5957ca94a309e246f95a5aae6c9798b6fe4",
+    "transformation": "unchanged bytes"
+  },
+  {
+    "historical_path": "output/analises/2026-10-29T044549961761+0000/horarios.json",
+    "publication_path": "reports/evidence/horarios.json",
+    "historical_sha256": "44c6e9240ba994d76cc7840b228f2941044eab48421308fd19af9dd986837eed",
+    "publication_sha256": "44c6e9240ba994d76cc7840b228f2941044eab48421308fd19af9dd986837eed",
+    "transformation": "unchanged bytes"
+  },
+  {
+    "historical_path": "output/analises/2026-10-29T044549961761+0000/reconciliacao.json",
+    "publication_path": "reports/evidence/reconciliacao.json",
+    "historical_sha256": "8defe1a74acbdb773809a3f897fa92b15e470d9b7352ff839fd7b3ad567ffedd",
+    "publication_sha256": "8defe1a74acbdb773809a3f897fa92b15e470d9b7352ff839fd7b3ad567ffedd",
+    "transformation": "unchanged bytes"
+  },
+  {
+    "historical_path": "output/complementar/2026-10-29T225426908711+0000-comparacoes-corrigidas/advanced-statistics.json",
+    "publication_path": "reports/evidence/advanced-statistics.json",
+    "historical_sha256": "010a252295131f37d5329035df255016dc423e1eb1d4ad01b5480380b0845ea8",
+    "publication_sha256": "f056802e7da851e965c963ffa8d05c8ff7800bc2e7172317248e464579734ac1",
+    "transformation": "project-root prefix removed from path strings only"
+  },
+  {
+    "historical_path": "output/complementar/2026-10-29T225426908711+0000-comparacoes-corrigidas/benford-sensibilidades.json",
+    "publication_path": "reports/evidence/benford-sensibilidades.json",
+    "historical_sha256": "b0c18a8a4cac5c60af8c700d6612b4e694674ba26c9aebc1eae599e745fdbca6",
+    "publication_sha256": "b0c18a8a4cac5c60af8c700d6612b4e694674ba26c9aebc1eae599e745fdbca6",
+    "transformation": "unchanged bytes"
+  },
+  {
+    "historical_path": "output/complementar/2026-10-29T225426908711+0000-comparacoes-corrigidas/biometria-95-porcento.json",
+    "publication_path": "reports/evidence/biometria-95-porcento.json",
+    "historical_sha256": "6bb0ad0ebc551c45bfb96656c4ec3a16119ce3fee2064ace3a4eb5b7821cf838",
+    "publication_sha256": "6bb0ad0ebc551c45bfb96656c4ec3a16119ce3fee2064ace3a4eb5b7821cf838",
+    "transformation": "unchanged bytes"
+  },
+  {
+    "historical_path": "output/complementar/2026-10-29T225426908711+0000-comparacoes-corrigidas/biometria-faixas.csv",
+    "publication_path": "reports/evidence/biometria-faixas.csv",
+    "historical_sha256": "dcab0da330b6b1b36e5269871418ccf85c99e5b97a02c051bf7975fa1acfeff1",
+    "publication_sha256": "dcab0da330b6b1b36e5269871418ccf85c99e5b97a02c051bf7975fa1acfeff1",
+    "transformation": "unchanged bytes"
+  },
+  {
+    "historical_path": "output/complementar/2026-10-29T225426908711+0000-comparacoes-corrigidas/comparisons-summary.json",
+    "publication_path": "reports/evidence/comparisons-summary.json",
+    "historical_sha256": "047524b28bd63873c4fd63a5edae137501681ba36e6d3c46ca39534eb9af9893",
+    "publication_sha256": "5a4806d0143e052de850f85ef17a9464a67c3d97531557742ea587b2b4eab1b1",
+    "transformation": "project-root prefix removed from path strings only"
+  },
+  {
+    "historical_path": "output/complementar/2026-10-29T225426908711+0000-comparacoes-corrigidas/fontes-documentais.json",
+    "publication_path": "reports/evidence/fontes-documentais.json",
+    "historical_sha256": "fb2e9d66e1cf8c5f3fe030fbd36ad5837e4ea6ae80512a56d7c65289c9ad2c91",
+    "publication_sha256": "1bc64fa5d484d9bd86c9d7b90a4eb4a987070789651b35b8a06d68d7a09c4241",
+    "transformation": "project-root prefix removed from path strings only"
+  },
+  {
+    "historical_path": "output/complementar/2026-10-29T225426908711+0000-comparacoes-corrigidas/logs-limitacoes.csv",
+    "publication_path": "reports/evidence/logs-limitacoes.csv",
+    "historical_sha256": "a4a25753c01a39037c0d8017136ad1514ecc799769750951f7168d6d2a1b95a7",
+    "publication_sha256": "a4a25753c01a39037c0d8017136ad1514ecc799769750951f7168d6d2a1b95a7",
+    "transformation": "unchanged bytes"
+  },
+  {
+    "historical_path": "output/complementar/2026-10-29T225426908711+0000-comparacoes-corrigidas/matriz.json",
+    "publication_path": "reports/evidence/matriz.json",
+    "historical_sha256": "ed3da011f807b50f4a5e47f4af662767bd862bd89465c3def85316cca04412c1",
+    "publication_sha256": "6af634fdddea094d68eb648ffd7e02902ed4069b645d9949ead3445811e0698a",
+    "transformation": "project-root prefix removed from path strings only"
+  },
+  {
+    "historical_path": "output/complementar/2026-10-29T225426908711+0000-comparacoes-corrigidas/modelos-controlados.csv",
+    "publication_path": "reports/evidence/modelos-controlados.csv",
+    "historical_sha256": "1c55b28bfec83912b0f50c794ca4bf3a5e38d6c2645f32c23eb8339822b83827",
+    "publication_sha256": "1c55b28bfec83912b0f50c794ca4bf3a5e38d6c2645f32c23eb8339822b83827",
+    "transformation": "unchanged bytes"
+  },
+  {
+    "historical_path": "output/complementar/2026-10-29T225426908711+0000-comparacoes-corrigidas/summary.json",
+    "publication_path": "reports/evidence/summary.json",
+    "historical_sha256": "6d6a91e8077abfb1b241bf1aa17dc221b8951794533dbd0d60f3a2cd8b937488",
+    "publication_sha256": "6d6a91e8077abfb1b241bf1aa17dc221b8951794533dbd0d60f3a2cd8b937488",
+    "transformation": "unchanged bytes"
+  },
+  {
+    "historical_path": "output/complementar/2026-10-29T225426908711+0000-comparacoes-corrigidas/tabular-schemas.json",
+    "publication_path": "reports/evidence/tabular-schemas.json",
+    "historical_sha256": "98d6013284b34e78e78f13f395e04b9db30571d66303f3fb7db07c465341d4d7",
+    "publication_sha256": "cd93ce020a9aebf226ecaf7664d551ccf9a770089b52036bd17062aed7d96731",
+    "transformation": "project-root prefix removed from path strings only"
+  },
+  {
+    "historical_path": "output/complementar/2026-10-29T225426908711+0000-comparacoes-corrigidas/tabular-summary.json",
+    "publication_path": "reports/evidence/tabular-summary.json",
+    "historical_sha256": "3f4402354c4dfbe54f4593a8a887fa45f0b443a54ec09c24965d272996b3e2ca",
+    "publication_sha256": "f0cbcb9beaf9dd3d014f73f6ab4e7ee14010b040cd6697e379ae2e0c3b90326b",
+    "transformation": "project-root prefix removed from path strings only"
+  }
+]

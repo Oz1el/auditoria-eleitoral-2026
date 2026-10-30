@@ -1,0 +1,33 @@
+openapi: 3.0.3
+info:
+  title: TSE catalog transport test double
+  version: 0.1.0
+servers:
+  - url: http://localhost
+paths:
+  /api/3/action/package_show:
+    get:
+      description: Shape observed in preserved CKAN snapshot; fixture id only.
+      responses:
+        '200':
+          description: CKAN metadata
+          content:
+            application/json:
+              example: {success: true, result: {resources: []}}
+        '500':
+          description: Injected transient transport failure
+        '429':
+          description: Injected rate limit with Retry-After
+  /archive.zip:
+    head:
+      responses:
+        '200': {description: Size and strong ETag}
+    get:
+      responses:
+        '200': {description: Complete synthetic ZIP}
+        '206': {description: Synthetic ZIP byte range}
+
+  /archive.zip.sha512:
+    get:
+      responses:
+        '200': {description: SHA-512 sidecar for the synthetic ZIP, not an authenticity assertion}

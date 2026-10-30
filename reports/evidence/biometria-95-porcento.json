@@ -1,0 +1,8 @@
+{
+  "sections": 45435,
+  "lula": 5428190,
+  "bolsonaro": 5871495,
+  "validos": 11299685,
+  "lula_percent_valid": 48.03841877008076,
+  "definition": "habilitados_biometria / comparecimento presidencial > 0.95; sem detalhe não imputado"
+}

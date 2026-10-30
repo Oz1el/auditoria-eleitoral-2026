@@ -1,0 +1,30 @@
+purpose:
+  stands_in_for: CKAN metadata and archive HTTP transport, with synthetic ZIP bytes only.
+  unblocks: Exercise the Python HTTP client against actual HTTP errors and byte ranges without downloading real archives.
+assumptions:
+  - id: client-transport-guards
+    status: supported
+    claim: The Python client passed the eleven locally simulated transport scenarios recorded in http-tests.json.
+    reason: The actual client was called through the Postman simulation, and its downloaded bytes and publication state were asserted.
+    verification: Normal metadata, transient 500, 429, bounded failure, read cap, fresh download, resume, ignored Range, changed ETag, bad hash and no overwrite all passed locally. This does not establish real provider reliability. Repeated on 2026-10-30 UTC during public repository preparation, with all eleven checks passing and matching request events observed in the local server output.
+    source: scripts/check_http.py; output/reports/http-tests.json; output/logs/http-simulation.ndjson
+    updated_at: '2026-10-28'
+  - id: metadata-shape
+    status: supported
+    claim: The observed CKAN response includes success and result.resources.
+    reason: Confirmed in the preserved official catalog snapshots; HTML exposes additional resources.
+    verification: Live read-only inventory preserved both surfaces; this mock models the response structure only.
+    source: data/catalog/latest.json; docs/http-contract.yaml
+    updated_at: '2026-10-28'
+  - id: range-resume
+    status: unknown
+    claim: Archive servers honor If-Range and return correct Content-Range for resumed transfers.
+    reason: Live HEAD advertised byte ranges; full archive range behavior is not established by HEAD.
+    verification: Local simulated checks are recorded in output/reports/http-tests.json. They establish client behavior against the stand-in, not all real server behavior.
+    source: scripts/check_http.py; src/auditoria_urnas/network.py; output/logs/http-simulation.ndjson
+    updated_at: '2026-10-28'
+fingerprints:
+  - id: initial
+    date: '2026-10-28'
+    commit: no Git commit; source hash recorded in test output
+    cli: 1.75.0

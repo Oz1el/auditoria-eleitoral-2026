@@ -1,0 +1,5 @@
+# Preserve published document and evidence bytes; PDFs are binary artifacts.
+*.pdf binary
+*.csv -text whitespace=cr-at-eol
+# Keep the upstream helper byte-identical to its documented SHA-256.
+src/auditoria_urnas/official/mr_util.py -text

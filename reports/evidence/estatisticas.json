@@ -1,0 +1,494 @@
+{
+  "biometry": {
+    "biographic_enabled": 8632488,
+    "without_registered_biometrics": 7251810,
+    "biometric_enabled": 111970333,
+    "sections_with_detail": 497897,
+    "sections_missing_detail": 1310,
+    "detail_turnout_general_bu": 127854631,
+    "detail_turnout_presidential": 127854631,
+    "biographic_pct_national_turnout": 6.731715757299307,
+    "biographic_pct_detail_turnout": 6.7517992367441115,
+    "without_registered_pct_national_turnout": 5.655046800637393,
+    "biographic_rate_quantiles": {
+      "0.0": 0.0,
+      "0.01": 0.012269938650306749,
+      "0.25": 0.04247104247104247,
+      "0.5": 0.06134969325153374,
+      "0.75": 0.08695652173913043,
+      "0.99": 0.1935483870967742,
+      "1.0": 0.9911894273127754
+    }
+  },
+  "unanimity": {
+    "zero_valid": 2,
+    "lula100": 106,
+    "bolsonaro100": 4,
+    "lula_gt90": 6816,
+    "bolsonaro_gt90": 378,
+    "lula_ge90": 6899,
+    "bolsonaro_ge90": 384
+  },
+  "models": [
+    {
+      "exposicao": "bio_rate",
+      "efeitos_fixos": "nenhum",
+      "secoes": 497897,
+      "municipios": 5571,
+      "coeficiente": 0.24660424623324345,
+      "erro_padrao_cluster_municipio": 0.0643707250342823,
+      "ic95_inferior": 0.12043994350731929,
+      "ic95_superior": 0.3727685489591676,
+      "pearson_bruto": 0.06842445522844894,
+      "spearman_bruto": 0.04536461399934375,
+      "peso": "votos válidos",
+      "controles": "log(aptos), comparecimento/aptos, (brancos+nulos)/comparecimento",
+      "covariancia": "cluster municipal assintótica, sem correção de amostra finita",
+      "interpretacao": "associação ecológica descritiva; não causal; coeficiente por unidade de proporção"
+    },
+    {
+      "exposicao": "bio_rate",
+      "efeitos_fixos": "uf",
+      "secoes": 497897,
+      "municipios": 5571,
+      "coeficiente": 0.08401925458537783,
+      "erro_padrao_cluster_municipio": 0.04451660948459012,
+      "ic95_inferior": -0.003231696718252977,
+      "ic95_superior": 0.17127020588900865,
+      "pearson_bruto": 0.06842445522844894,
+      "spearman_bruto": 0.04536461399934375,
+      "peso": "votos válidos",
+      "controles": "log(aptos), comparecimento/aptos, (brancos+nulos)/comparecimento",
+      "covariancia": "cluster municipal assintótica, sem correção de amostra finita",
+      "interpretacao": "associação ecológica descritiva; não causal; coeficiente por unidade de proporção"
+    },
+    {
+      "exposicao": "bio_rate",
+      "efeitos_fixos": "municipal_key",
+      "secoes": 497897,
+      "municipios": 5571,
+      "coeficiente": -0.007493376653207967,
+      "erro_padrao_cluster_municipio": 0.035915586368166226,
+      "ic95_inferior": -0.07788663241845149,
+      "ic95_superior": 0.06289987911203555,
+      "pearson_bruto": 0.06842445522844894,
+      "spearman_bruto": 0.04536461399934375,
+      "peso": "votos válidos",
+      "controles": "log(aptos), comparecimento/aptos, (brancos+nulos)/comparecimento",
+      "covariancia": "cluster municipal assintótica, sem correção de amostra finita",
+      "interpretacao": "associação ecológica descritiva; não causal; coeficiente por unidade de proporção"
+    },
+    {
+      "exposicao": "unregistered_rate",
+      "efeitos_fixos": "nenhum",
+      "secoes": 497897,
+      "municipios": 5571,
+      "coeficiente": 0.07620025753872868,
+      "erro_padrao_cluster_municipio": 0.0406710259343317,
+      "ic95_inferior": -0.003513488506855955,
+      "ic95_superior": 0.15591400358431332,
+      "pearson_bruto": 0.003779864460536995,
+      "spearman_bruto": 0.08021967811554025,
+      "peso": "votos válidos",
+      "controles": "log(aptos), comparecimento/aptos, (brancos+nulos)/comparecimento",
+      "covariancia": "cluster municipal assintótica, sem correção de amostra finita",
+      "interpretacao": "associação ecológica descritiva; não causal; coeficiente por unidade de proporção"
+    },
+    {
+      "exposicao": "unregistered_rate",
+      "efeitos_fixos": "uf",
+      "secoes": 497897,
+      "municipios": 5571,
+      "coeficiente": 0.056304571350433645,
+      "erro_padrao_cluster_municipio": 0.044384285643081244,
+      "ic95_inferior": -0.030687029989543778,
+      "ic95_superior": 0.14329617269041106,
+      "pearson_bruto": 0.003779864460536995,
+      "spearman_bruto": 0.08021967811554025,
+      "peso": "votos válidos",
+      "controles": "log(aptos), comparecimento/aptos, (brancos+nulos)/comparecimento",
+      "covariancia": "cluster municipal assintótica, sem correção de amostra finita",
+      "interpretacao": "associação ecológica descritiva; não causal; coeficiente por unidade de proporção"
+    },
+    {
+      "exposicao": "unregistered_rate",
+      "efeitos_fixos": "municipal_key",
+      "secoes": 497897,
+      "municipios": 5571,
+      "coeficiente": 0.011687870007985681,
+      "erro_padrao_cluster_municipio": 0.013289490201176528,
+      "ic95_inferior": -0.014359052159218271,
+      "ic95_superior": 0.03773479217518963,
+      "pearson_bruto": 0.003779864460536995,
+      "spearman_bruto": 0.08021967811554025,
+      "peso": "votos válidos",
+      "controles": "log(aptos), comparecimento/aptos, (brancos+nulos)/comparecimento",
+      "covariancia": "cluster municipal assintótica, sem correção de amostra finita",
+      "interpretacao": "associação ecológica descritiva; não causal; coeficiente por unidade de proporção"
+    }
+  ],
+  "benford": [
+    {
+      "aggregation": "secao",
+      "candidate": "lula",
+      "digit": 1,
+      "n": 499201,
+      "chi2": 297063.7343461914,
+      "p": 0.0,
+      "mad": 0.07914111182153977,
+      "observed": [
+        303561,
+        46387,
+        4702,
+        8441,
+        14038,
+        21254,
+        27944,
+        34209,
+        38665
+      ],
+      "expected_probabilities": [
+        0.3010299956639812,
+        0.17609125905568124,
+        0.12493873660829992,
+        0.09691001300805642,
+        0.07918124604762482,
+        0.06694678963061322,
+        0.05799194697768673,
+        0.05115252244738129,
+        0.04575749056067514
+      ],
+      "min_expected_count": 22842.185045379592,
+      "interpretation": "exploratório; condições de Benford não demonstradas",
+      "p_holm": 0.0
+    },
+    {
+      "aggregation": "secao",
+      "candidate": "lula",
+      "digit": 2,
+      "n": 499016,
+      "chi2": 6731.222119547752,
+      "p": 0.0,
+      "mad": 0.0102285134829866,
+      "observed": [
+        67178,
+        64491,
+        60088,
+        55533,
+        51207,
+        47416,
+        43207,
+        39659,
+        36711,
+        33526
+      ],
+      "expected_probabilities": [
+        0.11967926859688073,
+        0.1138901034075564,
+        0.10882149900550823,
+        0.10432956023095939,
+        0.10030820226757937,
+        0.09667723580232243,
+        0.09337473578303615,
+        0.09035198926960332,
+        0.08757005357886138,
+        0.08499735205769224
+      ],
+      "min_expected_count": 42415.03863442135,
+      "interpretation": "exploratório; condições de Benford não demonstradas",
+      "p_holm": 0.0
+    },
+    {
+      "aggregation": "secao",
+      "candidate": "bolsonaro",
+      "digit": 1,
+      "n": 499099,
+      "chi2": 273599.48164984584,
+      "p": 0.0,
+      "mad": 0.07480570637702237,
+      "observed": [
+        308841,
+        35992,
+        14049,
+        17148,
+        19275,
+        21693,
+        24321,
+        27177,
+        30603
+      ],
+      "expected_probabilities": [
+        0.3010299956639812,
+        0.17609125905568124,
+        0.12493873660829992,
+        0.09691001300805642,
+        0.07918124604762482,
+        0.06694678963061322,
+        0.05799194697768673,
+        0.05115252244738129,
+        0.04575749056067514
+      ],
+      "min_expected_count": 22837.5177813424,
+      "interpretation": "exploratório; condições de Benford não demonstradas",
+      "p_holm": 0.0
+    },
+    {
+      "aggregation": "secao",
+      "candidate": "bolsonaro",
+      "digit": 2,
+      "n": 496587,
+      "chi2": 6461.013118575627,
+      "p": 0.0,
+      "mad": 0.009104758083873744,
+      "observed": [
+        58344,
+        58703,
+        58813,
+        58197,
+        55472,
+        51303,
+        46712,
+        41687,
+        35839,
+        31517
+      ],
+      "expected_probabilities": [
+        0.11967926859688073,
+        0.1138901034075564,
+        0.10882149900550823,
+        0.10432956023095939,
+        0.10030820226757937,
+        0.09667723580232243,
+        0.09337473578303615,
+        0.09035198926960332,
+        0.08757005357886138,
+        0.08499735205769224
+      ],
+      "min_expected_count": 42208.580066273214,
+      "interpretation": "exploratório; condições de Benford não demonstradas",
+      "p_holm": 0.0
+    },
+    {
+      "aggregation": "municipio",
+      "candidate": "lula",
+      "digit": 1,
+      "n": 5715,
+      "chi2": 7.442788203138191,
+      "p": 0.4896969633777858,
+      "mad": 0.0034663971219564944,
+      "observed": [
+        1754,
+        1038,
+        697,
+        513,
+        428,
+        395,
+        331,
+        286,
+        273
+      ],
+      "expected_probabilities": [
+        0.3010299956639812,
+        0.17609125905568124,
+        0.12493873660829992,
+        0.09691001300805642,
+        0.07918124604762482,
+        0.06694678963061322,
+        0.05799194697768673,
+        0.05115252244738129,
+        0.04575749056067514
+      ],
+      "min_expected_count": 261.50405855425845,
+      "interpretation": "exploratório; condições de Benford não demonstradas",
+      "p_holm": 1.0
+    },
+    {
+      "aggregation": "municipio",
+      "candidate": "lula",
+      "digit": 2,
+      "n": 5701,
+      "chi2": 8.198438826061036,
+      "p": 0.5142788367586705,
+      "mad": 0.003345484983876111,
+      "observed": [
+        704,
+        675,
+        630,
+        558,
+        570,
+        524,
+        509,
+        541,
+        493,
+        497
+      ],
+      "expected_probabilities": [
+        0.11967926859688073,
+        0.1138901034075564,
+        0.10882149900550823,
+        0.10432956023095939,
+        0.10030820226757937,
+        0.09667723580232243,
+        0.09337473578303615,
+        0.09035198926960332,
+        0.08757005357886138,
+        0.08499735205769224
+      ],
+      "min_expected_count": 484.5699040809034,
+      "interpretation": "exploratório; condições de Benford não demonstradas",
+      "p_holm": 1.0
+    },
+    {
+      "aggregation": "municipio",
+      "candidate": "bolsonaro",
+      "digit": 1,
+      "n": 5715,
+      "chi2": 87.1968594432478,
+      "p": 1.7215289342807478e-15,
+      "mad": 0.01210273274140679,
+      "observed": [
+        1981,
+        1057,
+        708,
+        486,
+        379,
+        302,
+        298,
+        268,
+        236
+      ],
+      "expected_probabilities": [
+        0.3010299956639812,
+        0.17609125905568124,
+        0.12493873660829992,
+        0.09691001300805642,
+        0.07918124604762482,
+        0.06694678963061322,
+        0.05799194697768673,
+        0.05115252244738129,
+        0.04575749056067514
+      ],
+      "min_expected_count": 261.50405855425845,
+      "interpretation": "exploratório; condições de Benford não demonstradas",
+      "p_holm": 6.886115737122991e-15
+    },
+    {
+      "aggregation": "municipio",
+      "candidate": "bolsonaro",
+      "digit": 2,
+      "n": 5703,
+      "chi2": 8.034999425065697,
+      "p": 0.5306230034775606,
+      "mad": 0.0027904970120529197,
+      "observed": [
+        673,
+        645,
+        622,
+        562,
+        600,
+        598,
+        521,
+        506,
+        503,
+        473
+      ],
+      "expected_probabilities": [
+        0.11967926859688073,
+        0.1138901034075564,
+        0.10882149900550823,
+        0.10432956023095939,
+        0.10030820226757937,
+        0.09667723580232243,
+        0.09337473578303615,
+        0.09035198926960332,
+        0.08757005357886138,
+        0.08499735205769224
+      ],
+      "min_expected_count": 484.73989878501885,
+      "interpretation": "exploratório; condições de Benford não demonstradas",
+      "p_holm": 1.0
+    }
+  ],
+  "simulation": {
+    "hypothesis": "independent binomial votes, section valid count fixed, municipality leave-one-section-out candidate probability",
+    "seed": 20261025,
+    "simulations": 100,
+    "sections": 499130,
+    "excluded_sections": 77,
+    "observed_same_population": {
+      "zero_valid": 0,
+      "lula100": 106,
+      "bolsonaro100": 4,
+      "lula_gt90": 6814,
+      "bolsonaro_gt90": 376,
+      "lula_ge90": 6897,
+      "bolsonaro_ge90": 382
+    },
+    "expected_analytic": {
+      "lula100": 0.32497782180568086,
+      "bolsonaro100": 0.08898893922373494,
+      "lula_gt90": 809.8995772163191,
+      "bolsonaro_gt90": 23.069589781890613
+    },
+    "simulation_quantiles": {
+      "lula100": {
+        "0.025": 0.0,
+        "0.5": 0.0,
+        "0.975": 1.0
+      },
+      "bolsonaro100": {
+        "0.025": 0.0,
+        "0.5": 0.0,
+        "0.975": 1.0
+      },
+      "lula_gt90": {
+        "0.025": 757.8,
+        "0.5": 809.0,
+        "0.975": 854.675
+      },
+      "bolsonaro_gt90": {
+        "0.025": 16.475,
+        "0.5": 23.0,
+        "0.975": 31.0
+      },
+      "lula_ge90": {
+        "0.025": 781.65,
+        "0.5": 835.5,
+        "0.975": 879.0
+      },
+      "bolsonaro_ge90": {
+        "0.025": 17.475,
+        "0.5": 23.0,
+        "0.975": 32.0
+      }
+    },
+    "first_digit_mad_observed": {
+      "lula": 0.07915115409805698,
+      "bolsonaro": 0.07481554443716137
+    },
+    "first_digit_mad_simulated_quantiles": {
+      "lula": [
+        0.08417474683449874,
+        0.08427561889755991,
+        0.0844151617020397
+      ],
+      "bolsonaro": [
+        0.07764803780441792,
+        0.07774330773939822,
+        0.07785504631362375
+      ]
+    },
+    "limitations": "Homogeneity within municipality is a strong descriptive hypothesis; not a fraud null model; no individual vote timing/identity; Monte Carlo quantiles are approximate."
+  },
+  "additional": {
+    "turnout_rate_quantiles": {
+      "0.0": 0.0,
+      "0.01": 0.6440677966101694,
+      "0.25": 0.7777777777777778,
+      "0.5": 0.8151515151515152,
+      "0.75": 0.8471502590673575,
+      "0.99": 0.9185185185185185,
+      "1.0": 1.0
+    }
+  }
+}

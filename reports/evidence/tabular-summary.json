@@ -1,0 +1,1245 @@
+[
+  {
+    "uf": "AC",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 2270,
+    "bu_sections": 2270,
+    "missing_zero_turnout_sections": 0,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 144513,
+      "bolsonaro": 287715
+    },
+    "zero_turnout_identities": []
+  },
+  {
+    "uf": "AC",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 2832,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/bb6ef364799555f2b9c9/CESP_2t_AC_241020261231.zip"
+  },
+  {
+    "uf": "AC",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 2823,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/07bea2fd959156cd908f/CESP_2t_AC_251020261345.zip"
+  },
+  {
+    "uf": "AC",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 2270,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/e7a6aa4a475eb2e45b7b/CEFT_2t_AC_261020261201.zip"
+  },
+  {
+    "uf": "AL",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 7101,
+    "bu_sections": 7101,
+    "missing_zero_turnout_sections": 0,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 1152621,
+      "bolsonaro": 744140
+    },
+    "zero_turnout_identities": []
+  },
+  {
+    "uf": "AL",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 7814,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/17419d4591793875e21a/CESP_2t_AL_241020261231.zip"
+  },
+  {
+    "uf": "AL",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 7804,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/6a5745043859c87f2ee7/CESP_2t_AL_251020261345.zip"
+  },
+  {
+    "uf": "AL",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 7101,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/821dc2e5c1584f0ee68a/CEFT_2t_AL_261020261201.zip"
+  },
+  {
+    "uf": "AP",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 1914,
+    "bu_sections": 1914,
+    "missing_zero_turnout_sections": 0,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 222968,
+      "bolsonaro": 198674
+    },
+    "zero_turnout_identities": []
+  },
+  {
+    "uf": "AP",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 2317,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/f4e560b90899c561b503/CESP_2t_AP_241020261231.zip"
+  },
+  {
+    "uf": "AP",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 2310,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/7a3137a54a347ccb5c29/CESP_2t_AP_251020261345.zip"
+  },
+  {
+    "uf": "AP",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 1914,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/28f51cb695745273b111/CEFT_2t_AP_261020261201.zip"
+  },
+  {
+    "uf": "AM",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 8157,
+    "bu_sections": 8157,
+    "missing_zero_turnout_sections": 0,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 1145783,
+      "bolsonaro": 975245
+    },
+    "zero_turnout_identities": []
+  },
+  {
+    "uf": "AM",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 9250,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/b4aae9d1f2f4acc2469a/CESP_2t_AM_241020261231.zip"
+  },
+  {
+    "uf": "AM",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 9251,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/5fcd273908ef828437f7/CESP_2t_AM_251020261345.zip"
+  },
+  {
+    "uf": "AM",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 8157,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/dd9ae7fcae3226eeddf1/CEFT_2t_AM_261020261201.zip"
+  },
+  {
+    "uf": "BA",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 35476,
+    "bu_sections": 35476,
+    "missing_zero_turnout_sections": 0,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 6485258,
+      "bolsonaro": 2608761
+    },
+    "zero_turnout_identities": []
+  },
+  {
+    "uf": "BA",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 39136,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/f68c02804ee8ea8af264/CESP_2t_BA_241020261231.zip"
+  },
+  {
+    "uf": "BA",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 39126,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/669e4fc1ad7c038495cb/CESP_2t_BA_251020261345.zip"
+  },
+  {
+    "uf": "BA",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 35476,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/90ecc45e1e2952f55567/CEFT_2t_BA_261020261201.zip"
+  },
+  {
+    "uf": "CE",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 23765,
+    "bu_sections": 23765,
+    "missing_zero_turnout_sections": 0,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 4036124,
+      "bolsonaro": 1819478
+    },
+    "zero_turnout_identities": []
+  },
+  {
+    "uf": "CE",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 26169,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/aaa3e4627f8ad48fa6fd/CESP_2t_CE_241020261231.zip"
+  },
+  {
+    "uf": "CE",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 26151,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/47d3cb70c3937f3cbe72/CESP_2t_CE_251020261345.zip"
+  },
+  {
+    "uf": "CE",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 23765,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/0ee7321a9d9351321ce7/CEFT_2t_CE_261020261201.zip"
+  },
+  {
+    "uf": "DF",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 6969,
+    "bu_sections": 6969,
+    "missing_zero_turnout_sections": 0,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 825224,
+      "bolsonaro": 979542
+    },
+    "zero_turnout_identities": []
+  },
+  {
+    "uf": "DF",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 7627,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/af47af42a11b170e964a/CESP_2t_DF_241020261231.zip"
+  },
+  {
+    "uf": "DF",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 7627,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/6e2f4797f8c831c01736/CESP_2t_DF_251020261345.zip"
+  },
+  {
+    "uf": "DF",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 6969,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/cab2aecc39148135cd18/CEFT_2t_DF_261020261201.zip"
+  },
+  {
+    "uf": "ES",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 9844,
+    "bu_sections": 9844,
+    "missing_zero_turnout_sections": 0,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 1001965,
+      "bolsonaro": 1294504
+    },
+    "zero_turnout_identities": []
+  },
+  {
+    "uf": "ES",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 10751,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/0fa7b874388761d9917a/CESP_2t_ES_241020261231.zip"
+  },
+  {
+    "uf": "ES",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 10750,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/cf80ca12d3db52931a73/CESP_2t_ES_251020261345.zip"
+  },
+  {
+    "uf": "ES",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 9844,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/2a79552e5681ad6f6998/CEFT_2t_ES_261020261201.zip"
+  },
+  {
+    "uf": "GO",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 15686,
+    "bu_sections": 15686,
+    "missing_zero_turnout_sections": 0,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 1585555,
+      "bolsonaro": 2345334
+    },
+    "zero_turnout_identities": []
+  },
+  {
+    "uf": "GO",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 16832,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/3800856e33b839b0c209/CESP_2t_GO_241020261231.zip"
+  },
+  {
+    "uf": "GO",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 16828,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/ffeef7503a2a42bcdf4e/CESP_2t_GO_251020261345.zip"
+  },
+  {
+    "uf": "GO",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 15686,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/602cb093e9629b01249b/CEFT_2t_GO_261020261201.zip"
+  },
+  {
+    "uf": "MA",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 18093,
+    "bu_sections": 18093,
+    "missing_zero_turnout_sections": 0,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 2808231,
+      "bolsonaro": 1229971
+    },
+    "zero_turnout_identities": []
+  },
+  {
+    "uf": "MA",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 20013,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/7ebbae399a1224d52391/CESP_2t_MA_241020261231.zip"
+  },
+  {
+    "uf": "MA",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 20008,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/de5b10a0fd93d0e5f47d/CESP_2t_MA_251020261345.zip"
+  },
+  {
+    "uf": "MA",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 18093,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/e660d6902d26e176814a/CEFT_2t_MA_261020261201.zip"
+  },
+  {
+    "uf": "MT",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 8287,
+    "bu_sections": 8287,
+    "missing_zero_turnout_sections": 0,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 694167,
+      "bolsonaro": 1351099
+    },
+    "zero_turnout_identities": []
+  },
+  {
+    "uf": "MT",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 9532,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/20270f2c4c76044d1b7f/CESP_2t_MT_241020261231.zip"
+  },
+  {
+    "uf": "MT",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 9527,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/3f4a119e0a5ee6939721/CESP_2t_MT_251020261345.zip"
+  },
+  {
+    "uf": "MT",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 8287,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/abbb5e7131413dd6de94/CEFT_2t_MT_261020261201.zip"
+  },
+  {
+    "uf": "MS",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 7106,
+    "bu_sections": 7106,
+    "missing_zero_turnout_sections": 0,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 628973,
+      "bolsonaro": 927892
+    },
+    "zero_turnout_identities": []
+  },
+  {
+    "uf": "MS",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 7989,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/675aa53fab56b5f204c5/CESP_2t_MS_241020261231.zip"
+  },
+  {
+    "uf": "MS",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 7977,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/29fa7a1cf6efdd8d9bd9/CESP_2t_MS_251020261345.zip"
+  },
+  {
+    "uf": "MS",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 7106,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/807477d88e57628afc83/CEFT_2t_MS_261020261201.zip"
+  },
+  {
+    "uf": "MG",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 52062,
+    "bu_sections": 52062,
+    "missing_zero_turnout_sections": 0,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 6351099,
+      "bolsonaro": 6241786
+    },
+    "zero_turnout_identities": []
+  },
+  {
+    "uf": "MG",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 55736,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/66095573143d5c8b4b04/CESP_2t_MG_241020261231.zip"
+  },
+  {
+    "uf": "MG",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 55737,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/a434bde2394d8a12e9c8/CESP_2t_MG_251020261345.zip"
+  },
+  {
+    "uf": "MG",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 52062,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/578303387d9047fafa9b/CEFT_2t_MG_261020261201.zip"
+  },
+  {
+    "uf": "PA",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 20827,
+    "bu_sections": 20827,
+    "missing_zero_turnout_sections": 0,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 2690449,
+      "bolsonaro": 2199940
+    },
+    "zero_turnout_identities": []
+  },
+  {
+    "uf": "PA",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 23140,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/88e065dfc02b4557c3e2/CESP_2t_PA_241020261231.zip"
+  },
+  {
+    "uf": "PA",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 23153,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/429b2adcccad58dec583/CESP_2t_PA_251020261345.zip"
+  },
+  {
+    "uf": "PA",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 20827,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/eb282631b8facb5c1767/CEFT_2t_PA_261020261201.zip"
+  },
+  {
+    "uf": "PB",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 10712,
+    "bu_sections": 10712,
+    "missing_zero_turnout_sections": 0,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 1794059,
+      "bolsonaro": 865210
+    },
+    "zero_turnout_identities": []
+  },
+  {
+    "uf": "PB",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 11777,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/7058ebfa35676c6d9655/CESP_2t_PB_241020261231.zip"
+  },
+  {
+    "uf": "PB",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 11776,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/c04a561ee56a8eeb87e5/CESP_2t_PB_251020261345.zip"
+  },
+  {
+    "uf": "PB",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 10712,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/bb7449e804950b286814/CEFT_2t_PB_261020261201.zip"
+  },
+  {
+    "uf": "PR",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 27142,
+    "bu_sections": 27142,
+    "missing_zero_turnout_sections": 0,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 2566504,
+      "bolsonaro": 4291444
+    },
+    "zero_turnout_identities": []
+  },
+  {
+    "uf": "PR",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 29760,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/6af68a7a990380ce9c96/CESP_2t_PR_241020261231.zip"
+  },
+  {
+    "uf": "PR",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 29752,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/fc3696ca89f67b718723/CESP_2t_PR_251020261345.zip"
+  },
+  {
+    "uf": "PR",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 27142,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/f59f5c9d40baddd6c2e6/CEFT_2t_PR_261020261201.zip"
+  },
+  {
+    "uf": "PE",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 21418,
+    "bu_sections": 21418,
+    "missing_zero_turnout_sections": 0,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 4117513,
+      "bolsonaro": 1832554
+    },
+    "zero_turnout_identities": []
+  },
+  {
+    "uf": "PE",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 22712,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/9d49731b0d12bc02c0fc/CESP_2t_PE_241020261231.zip"
+  },
+  {
+    "uf": "PE",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 22711,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/b2620d6fda0b5f5dee26/CESP_2t_PE_251020261345.zip"
+  },
+  {
+    "uf": "PE",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 21418,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/f979759660a900c10aa2/CEFT_2t_PE_261020261201.zip"
+  },
+  {
+    "uf": "PI",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 10225,
+    "bu_sections": 10225,
+    "missing_zero_turnout_sections": 0,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 1653989,
+      "bolsonaro": 525859
+    },
+    "zero_turnout_identities": []
+  },
+  {
+    "uf": "PI",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 11218,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/ad221c4500cfa9ad0a10/CESP_2t_PI_241020261231.zip"
+  },
+  {
+    "uf": "PI",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 11202,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/49d03e52e76532ad062b/CESP_2t_PI_251020261345.zip"
+  },
+  {
+    "uf": "PI",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 10225,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/923666e11ab430e4711d/CEFT_2t_PI_261020261201.zip"
+  },
+  {
+    "uf": "RJ",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 37675,
+    "bu_sections": 37675,
+    "missing_zero_turnout_sections": 0,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 4565393,
+      "bolsonaro": 5169033
+    },
+    "zero_turnout_identities": []
+  },
+  {
+    "uf": "RJ",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 41376,
+    "bu_sections_without_correspondence": 1,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/24e25adfd31e419b36c2/CESP_2t_RJ_241020261231.zip"
+  },
+  {
+    "uf": "RJ",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 41365,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/4a8bf3543fa37a042a55/CESP_2t_RJ_251020261345.zip"
+  },
+  {
+    "uf": "RJ",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 37675,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/7cac8bbf938bd191e96e/CEFT_2t_RJ_261020261201.zip"
+  },
+  {
+    "uf": "RN",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 8115,
+    "bu_sections": 8115,
+    "missing_zero_turnout_sections": 0,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 1413596,
+      "bolsonaro": 737409
+    },
+    "zero_turnout_identities": []
+  },
+  {
+    "uf": "RN",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 8565,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/0cf82312bb9309e8add5/CESP_2t_RN_241020261231.zip"
+  },
+  {
+    "uf": "RN",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 8575,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/224cb842626b3fa7b314/CESP_2t_RN_251020261345.zip"
+  },
+  {
+    "uf": "RN",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 8115,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/06a6b3510defd5697f30/CEFT_2t_RN_261020261201.zip"
+  },
+  {
+    "uf": "RS",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 27547,
+    "bu_sections": 27547,
+    "missing_zero_turnout_sections": 0,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 2824552,
+      "bolsonaro": 3874378
+    },
+    "zero_turnout_identities": []
+  },
+  {
+    "uf": "RS",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 30589,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/4bb7683b363dd73a19b6/CESP_2t_RS_241020261231.zip"
+  },
+  {
+    "uf": "RS",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 30590,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/71783f9bb854834cb1d7/CESP_2t_RS_251020261345.zip"
+  },
+  {
+    "uf": "RS",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 27547,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/d29de38cc24a0e68d8af/CEFT_2t_RS_261020261201.zip"
+  },
+  {
+    "uf": "RO",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 4698,
+    "bu_sections": 4698,
+    "missing_zero_turnout_sections": 0,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 294446,
+      "bolsonaro": 674382
+    },
+    "zero_turnout_identities": []
+  },
+  {
+    "uf": "RO",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 5283,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/2c2eb2c912258df671c0/CESP_2t_RO_241020261231.zip"
+  },
+  {
+    "uf": "RO",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 5280,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/37f5a074b08c7fde18da/CESP_2t_RO_251020261345.zip"
+  },
+  {
+    "uf": "RO",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 4698,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/4946353d91527a8e9be5/CEFT_2t_RO_261020261201.zip"
+  },
+  {
+    "uf": "RR",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 1519,
+    "bu_sections": 1519,
+    "missing_zero_turnout_sections": 0,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 83505,
+      "bolsonaro": 219675
+    },
+    "zero_turnout_identities": []
+  },
+  {
+    "uf": "RR",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 1805,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/7572633f18df23bc7ab9/CESP_2t_RR_241020261231.zip"
+  },
+  {
+    "uf": "RR",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 1805,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/5fc0e2187ff896078419/CESP_2t_RR_251020261345.zip"
+  },
+  {
+    "uf": "RR",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 1519,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/b439b329835834a4d938/CEFT_2t_RR_261020261201.zip"
+  },
+  {
+    "uf": "SC",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 17326,
+    "bu_sections": 17326,
+    "missing_zero_turnout_sections": 0,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 1418314,
+      "bolsonaro": 3220071
+    },
+    "zero_turnout_identities": []
+  },
+  {
+    "uf": "SC",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 18666,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/d59b7e3cd3697821f240/CESP_2t_SC_241020261231.zip"
+  },
+  {
+    "uf": "SC",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 18673,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/c5c41dac59e787156668/CESP_2t_SC_251020261345.zip"
+  },
+  {
+    "uf": "SC",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 17326,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/5db31ba43324c7dba32e/CEFT_2t_SC_261020261201.zip"
+  },
+  {
+    "uf": "SP",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 103656,
+    "bu_sections": 103656,
+    "missing_zero_turnout_sections": 0,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 12119274,
+      "bolsonaro": 14139178
+    },
+    "zero_turnout_identities": []
+  },
+  {
+    "uf": "SP",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 114115,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/c0d91f638b683139562a/CESP_2t_SP_241020261231.zip"
+  },
+  {
+    "uf": "SP",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 114077,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/9115c389a474d3ee853f/CESP_2t_SP_251020261345.zip"
+  },
+  {
+    "uf": "SP",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 103656,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/136986abe70b90968f64/CEFT_2t_SP_261020261201.zip"
+  },
+  {
+    "uf": "SE",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 5923,
+    "bu_sections": 5923,
+    "missing_zero_turnout_sections": 0,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 989041,
+      "bolsonaro": 433354
+    },
+    "zero_turnout_identities": []
+  },
+  {
+    "uf": "SE",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 6655,
+    "bu_sections_without_correspondence": 4,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/cc222a98d157b5667d1f/CESP_2t_SE_241020261231.zip"
+  },
+  {
+    "uf": "SE",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 6657,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/2540b1955ad115609439/CESP_2t_SE_251020261345.zip"
+  },
+  {
+    "uf": "SE",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 5923,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/1fea93b36a8abed6d24d/CEFT_2t_SE_261020261201.zip"
+  },
+  {
+    "uf": "TO",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 4384,
+    "bu_sections": 4384,
+    "missing_zero_turnout_sections": 0,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 442962,
+      "bolsonaro": 467916
+    },
+    "zero_turnout_identities": []
+  },
+  {
+    "uf": "TO",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 4912,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/18059745600627f6f1fd/CESP_2t_TO_241020261231.zip"
+  },
+  {
+    "uf": "TO",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 4907,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/7a50bcf5aad14dc6edd7/CESP_2t_TO_251020261345.zip"
+  },
+  {
+    "uf": "TO",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 4384,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/27c88f2a9a661edc60ef/CEFT_2t_TO_261020261201.zip"
+  },
+  {
+    "uf": "ZZ",
+    "kind": "bweb",
+    "status": "complete",
+    "sections": 1308,
+    "bu_sections": 1310,
+    "missing_zero_turnout_sections": 2,
+    "missing_positive_turnout_sections": 0,
+    "unmatched_sections": 0,
+    "discrepant_sections": 0,
+    "official_sha512": "matched",
+    "reproduced_metrics": {
+      "lula": 200154,
+      "bolsonaro": 171497
+    },
+    "zero_turnout_identities": [
+      [
+        29564,
+        1,
+        91
+      ],
+      [
+        30686,
+        1,
+        443
+      ]
+    ]
+  },
+  {
+    "uf": "ZZ",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 1410,
+    "bu_sections_without_correspondence": 29,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/2499c580706e8bd7786e/CESP_2t_ZZ_241020261231.zip"
+  },
+  {
+    "uf": "ZZ",
+    "kind": "esperadas",
+    "status": "complete",
+    "rows": 1410,
+    "bu_sections_without_correspondence": 29,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/3d7223e6be1ad06044a6/CESP_2t_ZZ_251020261345.zip"
+  },
+  {
+    "uf": "ZZ",
+    "kind": "efetivadas",
+    "status": "complete",
+    "rows": 1310,
+    "bu_sections_without_correspondence": 0,
+    "official_sha512": "matched",
+    "snapshot": "data/raw/complementar/d623149bfb71fc2aa645/CEFT_2t_ZZ_261020261201.zip"
+  }
+]

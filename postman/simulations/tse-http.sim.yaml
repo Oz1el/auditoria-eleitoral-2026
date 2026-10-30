@@ -1,0 +1,9 @@
+simulation: tse-http-transport
+routing: path
+mocks:
+  - name: tse-http
+    routeKey: tse
+    origin:
+      - dadosabertos.tse.jus.br
+      - cdn.tse.jus.br
+    path: postman/mocks/tse-http/config.yaml

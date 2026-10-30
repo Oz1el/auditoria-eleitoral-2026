@@ -1,0 +1,44 @@
+[
+  {
+    "year": 2026,
+    "status": "complete",
+    "coverage": [
+      [
+        2026,
+        1,
+        499206
+      ],
+      [
+        2026,
+        2,
+        499205
+      ]
+    ],
+    "municipalities": 5716,
+    "source_processing_run": "output/complementar/2026-10-29T153638003360+0000",
+    "validated_parquet_files": 115,
+    "provenance_manifest": "output/complementar/2026-10-29T225426908711+0000-comparacoes-corrigidas/repair-input-manifest.json",
+    "limitations": "Municipal changes and different populations across turns; candidate number 22 identifies different people in 2022 and 2026; no individual voter inference."
+  },
+  {
+    "year": 2022,
+    "status": "complete",
+    "coverage": [
+      [
+        2022,
+        1,
+        472028
+      ],
+      [
+        2022,
+        2,
+        472028
+      ]
+    ],
+    "municipalities": 5710,
+    "source_processing_run": "output/complementar/2026-10-29T153638003360+0000",
+    "validated_parquet_files": 108,
+    "provenance_manifest": "output/complementar/2026-10-29T225426908711+0000-comparacoes-corrigidas/repair-input-manifest.json",
+    "limitations": "Municipal changes and different populations across turns; candidate number 22 identifies different people in 2022 and 2026; no individual voter inference."
+  }
+]

@@ -1,0 +1,131 @@
+{
+  "seed": 20261025,
+  "replicates": 1000,
+  "population_sections": 499130,
+  "excluded_sections": 77,
+  "observed": {
+    "zero_valid": 0,
+    "lula100": 106,
+    "bolsonaro100": 4,
+    "lula_gt90": 6814,
+    "bolsonaro_gt90": 376,
+    "lula_ge90": 6897,
+    "bolsonaro_ge90": 382
+  },
+  "fit": {
+    "converged": true,
+    "n": 499130,
+    "phi": 44.22146677218545,
+    "rho": 0.022113391523493748,
+    "negative_log_likelihood": 2170911.4983535605,
+    "optimizer_evaluations": 11,
+    "binomial_negative_log_likelihood": 2998220.878392773,
+    "boundary": false,
+    "hypothesis": "fixed municipal leave-one-section-out probabilities; one pooled overdispersion parameter",
+    "limitations": "Not a causal or fraud model; local heterogeneity and estimated baseline influence fit."
+  },
+  "quantiles": {
+    "binomial": {
+      "zero_valid": {
+        "0.025": 0.0,
+        "0.5": 0.0,
+        "0.975": 0.0
+      },
+      "lula100": {
+        "0.025": 0.0,
+        "0.5": 0.0,
+        "0.975": 2.0
+      },
+      "bolsonaro100": {
+        "0.025": 0.0,
+        "0.5": 0.0,
+        "0.975": 1.0
+      },
+      "lula_gt90": {
+        "0.025": 764.0,
+        "0.5": 811.0,
+        "0.975": 854.025
+      },
+      "bolsonaro_gt90": {
+        "0.025": 17.0,
+        "0.5": 23.0,
+        "0.975": 30.0
+      },
+      "lula_ge90": {
+        "0.025": 788.0,
+        "0.5": 835.0,
+        "0.975": 880.025
+      },
+      "bolsonaro_ge90": {
+        "0.025": 17.0,
+        "0.5": 23.5,
+        "0.975": 30.0
+      }
+    },
+    "beta_binomial": {
+      "zero_valid": {
+        "0.025": 0.0,
+        "0.5": 0.0,
+        "0.975": 0.0
+      },
+      "lula100": {
+        "0.025": 0.0,
+        "0.5": 2.0,
+        "0.975": 4.024999999999977
+      },
+      "bolsonaro100": {
+        "0.025": 0.0,
+        "0.5": 0.0,
+        "0.975": 2.0
+      },
+      "lula_gt90": {
+        "0.025": 4203.975,
+        "0.5": 4313.0,
+        "0.975": 4434.05
+      },
+      "bolsonaro_gt90": {
+        "0.025": 365.0,
+        "0.5": 403.0,
+        "0.975": 443.025
+      },
+      "lula_ge90": {
+        "0.025": 4270.0,
+        "0.5": 4380.0,
+        "0.975": 4504.025
+      },
+      "bolsonaro_ge90": {
+        "0.025": 373.0,
+        "0.5": 411.5,
+        "0.975": 451.0
+      }
+    }
+  },
+  "checkpoint_directory": "data/checkpoints/complementar/simulations/6c55ec75858f5d35941945bd",
+  "limitations": "Model-dependent reference distributions. No inference about fraud or individual voter behavior.",
+  "simulated_first_digit_mad_quantiles": {
+    "binomial": {
+      "lula": [
+        0.08416294506731752,
+        0.08427695455493708,
+        0.08439719711031676
+      ],
+      "bolsonaro": [
+        0.0776476168242764,
+        0.0777513778292121,
+        0.07784565500007047
+      ]
+    },
+    "beta_binomial": {
+      "lula": [
+        0.07596734850470645,
+        0.07616678523594034,
+        0.07636721095213332
+      ],
+      "bolsonaro": [
+        0.07225977715915993,
+        0.07243120862853403,
+        0.07262580662118279
+      ]
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "sections": 499207,
+  "rdv": [
+    499207,
+    499207,
+    0,
+    0
+  ],
+  "logs": {
+    "status_counts": [
+      [
+        "ausente",
+        1
+      ],
+      [
+        "ok",
+        499177
+      ],
+      [
+        "sistema_apuracao_sem_horario_individual_inferido",
+        29
+      ]
+    ],
+    "trusted_domestic": 497254,
+    "observed_late": {
+      "apos17": 33995,
+      "17_18": 32002,
+      "18_19": 1982,
+      "apos19": 11
+    },
+    "unresolved_turnout_upper_bound": 164717
+  },
+  "signatures": {
+    "status_counts": [
+      [
+        "ok",
+        499207
+      ]
+    ],
+    "hash_mismatches": 0,
+    "hw_verified": 1996827,
+    "hw_invalid": 0,
+    "issuer_status_counts": [
+      [
+        "emissor_oficial_assinatura_compativel",
+        499207
+      ]
+    ],
+    "trust_limit": "emissor embutido no pacote oficial; sem validação completa RFC5280/revogação; CEPESC SW não verificado"
+  }
+}

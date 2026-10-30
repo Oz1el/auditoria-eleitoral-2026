@@ -1,0 +1,76 @@
+{
+  "captured_utc": "2026-10-29T12:19:24.649439+00:00",
+  "page_order": "números impressos conferidos visualmente, correspondentes à ordenação dos nomes",
+  "images": [
+    {
+      "page": 1,
+      "image": "input/relatorio_original/Imagem do ChatGPT 29 de out. de 2026, 08_05_29.png",
+      "sha256": "62e292871673bf6d2f1c19a29af9a7f0ce6ba4d206a54584947aafafe70d9ea9",
+      "bytes": 84236,
+      "ocr": "data/evidence/relatorio_original/pagina-01.txt",
+      "ocr_sha256": "0464af6c0882d2ab35fab979e0355af1220d8094d883d085f63c39986099a40d"
+    },
+    {
+      "page": 2,
+      "image": "input/relatorio_original/Imagem do ChatGPT 29 de out. de 2026, 08_05_40.png",
+      "sha256": "f3701bca85642494f5e56d1fdd3e82a4a14df71eb4928acab9b5fdd95cc2a138",
+      "bytes": 331471,
+      "ocr": "data/evidence/relatorio_original/pagina-02.txt",
+      "ocr_sha256": "0c59906c45ddee25d8309685283d6e11cb7a1258d59314301dbab48dcb0966bd"
+    },
+    {
+      "page": 3,
+      "image": "input/relatorio_original/Imagem do ChatGPT 29 de out. de 2026, 08_05_46.png",
+      "sha256": "bb010ceb8030ecbe0c363291f06905476f3a2eed6bb243b98066dcd6c7d47758",
+      "bytes": 277943,
+      "ocr": "data/evidence/relatorio_original/pagina-03.txt",
+      "ocr_sha256": "8fcbdedd6b82020f4af40d4a0abac3ae152109954cd2f4844c763792463c7d54"
+    },
+    {
+      "page": 4,
+      "image": "input/relatorio_original/Imagem do ChatGPT 29 de out. de 2026, 08_05_52.png",
+      "sha256": "21dd5ffd8d7b873c2f606b8ebc000458ed269fdd7d9bebb197bfc4c2dad27ddd",
+      "bytes": 377096,
+      "ocr": "data/evidence/relatorio_original/pagina-04.txt",
+      "ocr_sha256": "0c5a1a1da5ae2b504491f0e965d4af564acd023ff4e7111b6d189f7af8b5dafc"
+    },
+    {
+      "page": 5,
+      "image": "input/relatorio_original/Imagem do ChatGPT 29 de out. de 2026, 08_05_59.png",
+      "sha256": "c4f1a427e307a50d8f8905c5eb3c2bb67de567c6b74a26c0c9708a2f5e5d7248",
+      "bytes": 228177,
+      "ocr": "data/evidence/relatorio_original/pagina-05.txt",
+      "ocr_sha256": "208037e0edbd7acd721ac1689c878705ca16636ba85ec1e635d3c58f3371c585"
+    },
+    {
+      "page": 6,
+      "image": "input/relatorio_original/Imagem do ChatGPT 29 de out. de 2026, 08_06_05.png",
+      "sha256": "983e68b7c588ebcf444709152dd430f0e42572034eb1ca932cf73645177fa688",
+      "bytes": 358253,
+      "ocr": "data/evidence/relatorio_original/pagina-06.txt",
+      "ocr_sha256": "bad0caf94f2175453a2fc3d1a4589ab37a8d9122032abdeaaab32719134ec62d"
+    },
+    {
+      "page": 7,
+      "image": "input/relatorio_original/Imagem do ChatGPT 29 de out. de 2026, 08_06_12.png",
+      "sha256": "3c8704da68019ea20102e4a059d8a6545f19ad4fff61a0e83bf97e7ea03b53a2",
+      "bytes": 273731,
+      "ocr": "data/evidence/relatorio_original/pagina-07.txt",
+      "ocr_sha256": "b162f34e3612e7ab260980bd654207238d3cd9486bca42870bd58cf80aa97c95"
+    }
+  ],
+  "authorship": "not_established",
+  "transcription": "docs/relatorio_original/transcricao.md",
+  "transcription_sha256": "289ff98a2e815a0a16d089e9e42b13c455aad5999de62fd68c736ad9e918e86d",
+  "visually_checked_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "normalization": "quebras de linha e tabelas; texto conferido contra os sete prints; elementos de navegação excluídos",
+  "previous_serialization_sha256": "438a098070bda20fa3a7071c3b85a0f018d2a6c9f18f61c20c1b2e45932fc386"
+}

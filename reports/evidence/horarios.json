@@ -1,0 +1,83 @@
+{
+  "population": "seções domésticas; data de encerramento em Brasília = 25/10/2026",
+  "known": 497897,
+  "domestic": 497897,
+  "unresolved": 0,
+  "exterior_excluded": 1310,
+  "bins": [
+    {
+      "faixa": "ate_170000",
+      "secoes": 0,
+      "lula": 0,
+      "bolsonaro": 0,
+      "validos": 0,
+      "percentual_bolsonaro_validos": null,
+      "vantagem_bolsonaro": 0
+    },
+    {
+      "faixa": "apos_170000",
+      "secoes": 497897,
+      "lula": 64056078,
+      "bolsonaro": 59654544,
+      "validos": 123710622,
+      "percentual_bolsonaro_validos": 48.221036347226516,
+      "vantagem_bolsonaro": -4401534
+    },
+    {
+      "faixa": "170001_170059",
+      "secoes": 125624,
+      "lula": 15001166,
+      "bolsonaro": 15608268,
+      "validos": 30609434,
+      "percentual_bolsonaro_validos": 50.99169099304483,
+      "vantagem_bolsonaro": 607102
+    },
+    {
+      "faixa": "170100_171559",
+      "secoes": 363428,
+      "lula": 47692656,
+      "bolsonaro": 42962768,
+      "validos": 90655424,
+      "percentual_bolsonaro_validos": 47.39128240137071,
+      "vantagem_bolsonaro": -4729888
+    },
+    {
+      "faixa": "171600_185959",
+      "secoes": 2493,
+      "lula": 372437,
+      "bolsonaro": 279413,
+      "validos": 651850,
+      "percentual_bolsonaro_validos": 42.864616092659354,
+      "vantagem_bolsonaro": -93024
+    },
+    {
+      "faixa": "apos_190000",
+      "secoes": 6336,
+      "lula": 987279,
+      "bolsonaro": 801812,
+      "validos": 1789091,
+      "percentual_bolsonaro_validos": 44.81672536500379,
+      "vantagem_bolsonaro": -185467
+    },
+    {
+      "faixa": "a_partir_190000",
+      "secoes": 6352,
+      "lula": 989819,
+      "bolsonaro": 804095,
+      "validos": 1793914,
+      "percentual_bolsonaro_validos": 44.82349767045689,
+      "vantagem_bolsonaro": -185724
+    }
+  ],
+  "official_differences": {
+    "closed_after_17": 564,
+    "closed_after_19": -430
+  },
+  "official_reference": {
+    "closed_after_17": 497333,
+    "closed_after_19": 6766,
+    "individual_votes_after_17": 34393,
+    "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/eleicoes-2026-mais-de-34-mil-votos-foram-registrados-apos-as-17h-no-2o-turno"
+  },
+  "limitation": "BU registra encerramento, não horário individual do voto; SA/fusos não resolvidos e datas diferentes ficam fora e são quantificados."
+}

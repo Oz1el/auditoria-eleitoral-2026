@@ -1,0 +1,65 @@
+# Dados, evidências locais e resultados de execução
+/data/
+/output/
+/input/**
+!/input/relatorio_original/
+!/input/relatorio_original/.gitkeep
+/docs/bweb-schema.json
+
+# Ambientes, caches e empacotamento
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Configuração privada; manter o exemplo sem credenciais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Arquivos volumosos, bancos e artefatos binários
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.xz
+*.zst
+*.parquet
+*.arrow
+*.feather
+*.duckdb
+*.duckdb.*
+*.sqlite
+*.sqlite3
+*.db
+*.pdf
+*.part
+*.part.json
+*.log
+*.jsonl
+*.ndjson
+
+# Local operational authorizations and one-off recovery scripts
+/operations/
+# Only the reviewed publication and its explicit supporting files are distributed.
+/reports/*
+!/reports/README.md
+!/reports/respostas-as-alegacoes.pdf
+!/reports/respostas-as-alegacoes.md
+!/reports/respostas-estruturadas.json
+!/reports/indice-de-cobertura.csv
+!/reports/manifesto-da-edicao.json
+!/reports/fontes-da-execucao.csv
+!/reports/evidence/
+/postman/.dependencies/
